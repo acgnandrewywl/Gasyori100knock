@@ -17,7 +17,7 @@ def BGR2GRAY(img):
 
 # prewitt filter
 def prewitt_filter(img, K_size=3):
-	H, W, C = img.shape
+	H, W = img.shape
 
 	# Zero padding
 	pad = K_size // 2
